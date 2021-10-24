@@ -8,6 +8,7 @@ body {
     background: transparent;
     border: none;
     resize: none;
+    height: 100%;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
@@ -37,6 +38,9 @@ body {
   }
   
   .hour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
@@ -69,4 +73,6 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
+#taskInput{
+  height: 100% !important;
+}
