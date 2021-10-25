@@ -24,6 +24,7 @@ body {
   
   .description {
     white-space: pre-wrap;
+    font-size: 25px;
   }
   
   .time-block {
@@ -66,11 +67,12 @@ body {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06aed5;
+    font-size : 20px;
     color: white;
   }
   
   .saveBtn i:hover {
-    font-size: 20px;
+    font-size: 35px;
     transition: all 0.3s ease-in-out;
   }
 #taskInput{
